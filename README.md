@@ -1,27 +1,27 @@
-# Templates.do - Worker Templates API 
+# Iterate.do - Simple Data Iteration API 
 
-Explore the API at: <https://templates.do/api>
+Explore the API at: <https://iterate.do/api>
 
 ```json
 {
   "api": {
     "icon": "🚀",
-    "name": "templates.do",
-    "description": "Cloudflare Worker Template",
-    "url": "https://templates.do/api",
-    "type": "https://apis.do/templates",
+    "name": "iterate.do",
+    "description": "Simple Data Iteration API",
+    "url": "https://iterate.do/api",
+    "type": "https://apis.do/data",
     "endpoints": {
-      "listCategories": "https://templates.do/api",
-      "getCategory": "https://templates.do/:type"
+      "listCategories": "https://iterate.do/api",
+      "getCategory": "https://iterate.do/:type"
     },
-    "site": "https://templates.do",
-    "login": "https://templates.do/login",
-    "signup": "https://templates.do/signup",
-    "subscribe": "https://templates.do/subscribe",
-    "repo": "https://github.com/drivly/templates.do"
+    "site": "https://iterate.do",
+    "login": "https://iterate.do/login",
+    "signup": "https://iterate.do/signup",
+    "subscribe": "https://iterate.do/subscribe",
+    "repo": "https://github.com/drivly/iterate.do"
   }
   "examples": {
-    "listItems": "https://templates.do/worker"
+    "listItems": "https://iterate.do/worker"
   }
 }
 ```
